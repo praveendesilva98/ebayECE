@@ -1,0 +1,278 @@
+body
+{
+    background-color: rgb(255, 255, 255);
+}
+
+.box
+{
+    width: 80%;
+    height: 250px;
+}
+
+.img1
+{
+    width: auto;
+    max-height: 150px;
+}
+
+.image1
+{
+    min-width: 250px;
+    max-width: 300px;
+    height: auto;
+}
+
+.text_item
+{
+    float: left;
+}
+
+h4.titre
+{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+h4.titre:hover
+{
+    text-decoration: none;
+    color: rgb(33, 0, 179);
+}
+
+.white_box
+{
+    width: 80%;
+}
+
+.top-content
+{
+    width: 70%;
+}
+
+.titre_item
+{
+    padding-left: 50px;
+}
+
+h6
+{
+    font-family: serif;
+    font-size: 1rem;
+    color: black;
+}
+
+
+
+h5
+{
+    font-family: serif;
+    font-size: 1.25rem;
+    color: black;
+}
+
+h4
+{
+    font-family: serif;
+    font-size: 1.5rem;
+    color: black;
+}
+
+h3
+{
+    font-family: serif;
+    font-size: 1.75rem;
+}
+
+h2
+{
+    font-family: serif;
+    font-size: 2rem;
+}
+
+h1
+{
+    font-family: serif;
+    font-size: 2.25rem;
+}
+
+.alert
+{
+    font-size: 1rem;
+}
+
+
+ul.nav-pills 
+{
+    top: 100px;
+    position: fixed;
+}
+
+div.col-8 div 
+{
+    height: 300px;
+}
+
+.btn-danger
+{
+    width: 15%;
+}
+
+.form
+{
+    margin-left: 40px;
+}
+
+.form-group
+{
+    width: 70%;
+    height: auto;
+}
+
+footer
+{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    color: white;
+}
+
+footer p
+{
+    padding-top: 40px;
+}
+
+.degrade-bouton{
+    background: linear-gradient(135deg, #fbdf93 0%,#f8b500 49%,#fccd4d 49%,#fceabb 100%);
+}
+
+.logo
+{
+    
+    padding-right: 10px;
+    font-family:italic;
+    font-size: 30px;
+    transform:skew(-18deg) rotate(-6deg);
+    background: -webkit-linear-gradient(-45deg, #fbdf93 0%,#f8b500 49%,#fccd4d 49%,#fceabb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h1
+{
+    color: white;
+}
+
+
+.navbar-light .navbar-nav .nav-link 
+{
+    color: black; 
+}
+
+.bg-light {
+    background-color: white!important;
+}
+
+@media screen and (max-width: 640px) 
+{
+.nav-link
+{
+    content = "";
+}
+
+}
+.dropdown-menu
+{
+    background: white;
+    width: 100%;
+    color: black;
+    cursor: pointer;
+    font-size: 12px;
+} 
+
+a.dropdown-item
+{
+    color: black;
+}
+
+a.dropdown-item:hover
+{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.dropdown-menu li:hover 
+{
+    background: black;
+    cursor: pointer;
+}
+
+.nav-link
+{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+footer
+{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    color: black;
+}
+
+footer p
+{
+    padding-top: 40px;
+}
+
+.jumbotron
+{
+
+    background: rgb(8,22,137);
+    background: linear-gradient(to bottom right, rgba(255,215,0,1) 0%, rgba(255,250,223,1) 100%);
+    width: 100%;
+    height: 60%;
+}
+
+.see_more
+{
+    font-size: 18px;
+    color: black;
+}
+
+.see_more:hover
+{
+    color: rgb(17, 17, 77);
+    text-decoration: none;
+}
+
+
+.lien:hover
+{
+    text-decoration: none;
+    transition: 0.5s;
+    color: black;
+}
+
+
+
+.card-header a:hover
+{
+    color: rgb(0, 0, 156);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.card-body
+{
+    height: 100px;
+}
+
+h6.card-text:hover
+{
+    color: rgb(8, 8, 77);
+    text-decoration: none;
+}
